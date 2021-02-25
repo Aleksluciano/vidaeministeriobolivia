@@ -1,0 +1,12 @@
+/node_modules/
+/public/build/
+
+
+.DS_Store  
+
+
+functions/node_modules
+node_modules
+systemkey.json
+./systemkey.json
+/systemkey.json
