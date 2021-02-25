@@ -4,23 +4,11 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "site": "vidaeministerio-e4bf6",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "headers": [
-      {
-        "source": "/service-worker.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
-      }
     ],
     "rewrites": [
       {
