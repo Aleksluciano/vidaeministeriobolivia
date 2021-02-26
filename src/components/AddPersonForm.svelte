@@ -171,38 +171,10 @@
   <p class:green={irmao.grupo}>Grupo <span>{irmao.grupo ? '✔' : ''}</span></p>
   <div>
     <label>
-      <input type="radio" bind:group={irmao.grupo} value={'Betel'} />
-      Betel
-    </label>
-    <label>
-      <input type="radio" bind:group={irmao.grupo} value={'Beréia'} />
-      Beréia
+      <input type="radio" bind:group={irmao.grupo} value={'Bolivia'} />
+      Bolívia
     </label>
 
-    <label>
-      <input type="radio" bind:group={irmao.grupo} value={'Gileade'} />
-      Gileade
-    </label>
-    <div>
-      <label>
-        <input type="radio" bind:group={irmao.grupo} value={'Hébron'} />
-        Hébron
-      </label>
-      <label>
-        <input type="radio" bind:group={irmao.grupo} value={'Jerusalém'} />
-        Jerusalém
-      </label>
-      <label>
-        <input type="radio" bind:group={irmao.grupo} value={'Nazaré'} />
-        Nazaré
-      </label>
-      <div>
-        <label>
-          <input type="radio" bind:group={irmao.grupo} value={'Promissão'} />
-          Promissão
-        </label>
-      </div>
-    </div>
     {#if irmao.privilegio != 'A' && irmao.privilegio != 'S'}
     <p class:green={validaIndiceParte}>
       Última parte
