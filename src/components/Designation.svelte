@@ -64,14 +64,14 @@
     try {
       // console.log(params)
       // const res = await fetch("http://localhost:3000/jw?data=" + params);
-      const res = await fetch("https://southamerica-east1-vidaeministerio-e4bf6.cloudfunctions.net/data?data=" + params, {mode: 'no-cors'});
-       let dadosjs = await res.json();
-       dadosjs = dadosjs.data;
+     // const res = await fetch("https://southamerica-east1-vidaeministerio-e4bf6.cloudfunctions.net/jw?data=" + params, {mode: 'no-cors'});
+      // let dadosjs = await res.json();
+       //dadosjs = dadosjs.data;
        //console.log(dadosjs);
       //
-      //const res = await callFirebaseFnJw({ data: params });
-      //let dadosjs = res.data.dados; // get info layout from jw site
-      //dadosjs = dadosjs.filter(a => a !== null);
+      const res = await callFirebaseFnJw({ data: params });
+      let dadosjs = res.data.dados; // get info layout from jw site
+      dadosjs = dadosjs.filter(a => a !== null);
      
    
       if (dadosjs.length > 0) {
