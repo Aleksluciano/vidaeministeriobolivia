@@ -2,7 +2,7 @@
   import { createEventDispatcher } from "svelte";
   import Button from "../shared/Button.svelte";
   import Spinner from "../shared/Spinner.svelte";
-  //import { callFirebaseFnJw } from "../../firebase.js";
+  import { callFirebaseFnJw } from "../../firebase.js";
   import { fade } from "svelte/transition";
   import { DesignacaoPeriodo } from "./DesignacaoPeriodo";
   import ManualSelection from "./ManualSelection.svelte";
