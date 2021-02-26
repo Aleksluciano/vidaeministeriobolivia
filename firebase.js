@@ -4,13 +4,13 @@ import 'firebase/functions';
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDNGiJVz0lPSIOXY8nYVv_zMNOvtq8YDrk",
-  authDomain: "vidaeministerio-e4bf6.firebaseapp.com",
-  projectId: "vidaeministerio-e4bf6",
-  storageBucket: "vidaeministerio-e4bf6.appspot.com",
-  messagingSenderId: "484949252041",
-  appId: "1:484949252041:web:9e71bf0fe21f0dfc4aba18",
-  measurementId: "G-04S9HB806X"
+  apiKey: "AIzaSyAMxns2oUY-lGg17uH8A3PNsHHFfml-MEA",
+  authDomain: "vidaeministerio-91da5.firebaseapp.com",
+  projectId: "vidaeministerio-91da5",
+  storageBucket: "vidaeministerio-91da5.appspot.com",
+  messagingSenderId: "992671254413",
+  appId: "1:992671254413:web:6d6f74cce071e42b8edfc4",
+  measurementId: "G-229HJ15SPX"
 };
 
 firebase.initializeApp(firebaseConfig);
